@@ -1,0 +1,52 @@
+Product organization {
+  Bag {
+    Messenger Bag {
+      Trash Can
+      Dumpster
+      Landfill
+    }
+    Courier Rolltop Pack {
+      Inferno
+      Incinerator
+      Burner
+      Fire
+    }
+    Courier Flap Pack {
+      Vortex
+      Barge
+      Truck
+      Disposal
+    }
+    Hip Pack {
+      WasteBasket
+      WasteBasket 2
+      WasteBin
+      Tin Bin
+    }
+    Travel Box {
+      Space Junk
+    }
+  }
+  
+  Apparel {
+    Gloves {
+      Garbage Picker
+      Garbage Picker Lobster
+    }
+    Facemask {
+    
+    }
+    Hat {
+      Garbage Lid
+    }
+  }
+  
+  Utility {
+    Top Tube Pads
+    Tall Boy Coozie
+    Phone Holster
+    U-Lock Belt
+    Wallet
+    Compactor
+  }
+}

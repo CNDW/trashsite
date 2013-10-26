@@ -5,6 +5,12 @@ fixture_one:
   description: Sample Fixture Product Text
   image_url: ruby.png
   price: 49.50
+  
+one:
+  title: Sample Fixture Product Title
+  description: Sample Fixture Product Text
+  image_url: ruby.png
+  price: 49.50
 
 two:
   title: MyString
