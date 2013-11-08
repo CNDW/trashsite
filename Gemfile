@@ -38,6 +38,24 @@ gem 'will_paginate', '~> 3.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
 
+group :development, :test do
+  gem 'guard-rspec'
+  gem 'guard-livereload'
+  gem 'spork-rails', github: 'sporkrb/spork-rails' # rubygems version not rails 4 compatible
+  gem 'guard-spork'
+  gem 'childprocess'
+end
+
+group :test do
+  gem 'rspec-rails'
+  gem 'selenium-webdriver', '~> 2.35.1'
+  gem 'capybara', '2.1.0'
+  gem 'factory_girl_rails'
+  gem 'cucumber', '1.2.5' # Spork not supported as of Cucumber 1.3.0, need to use 1.2.5
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
+end
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
